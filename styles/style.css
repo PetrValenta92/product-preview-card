@@ -16,6 +16,7 @@ body {
 
 .card-wrapper {
     background-color: white;
+    font-size: 0.875rem;
     width: 90%;
     margin: 25px auto;
     border-radius: 3%;
@@ -27,12 +28,15 @@ body {
 }
 
 .product-information {
-    margin: 10px;
+    margin: 20px;
+    /* border: solid; */
 }
 
 .product-information p, s {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     color: var(--dark-grayish-blue);
+
 } 
 
 .product-information p {
@@ -42,7 +46,7 @@ body {
 .product-information h2, strong {
     font-family: 'Fraunces', serif;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 2rem;
 }
 
 .product-information h2 {
@@ -62,10 +66,23 @@ body {
 
 .add-button {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     background-color: var(--dark-cyan);
+    color: white;
     width: 100%;
-    padding: 20px;
+    padding: 15px 0;
     cursor: pointer;
     border: none;
-    border-radius: 10px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+}
+
+.add-button:hover {
+    transition-duration: 0.4s;
+    background-color: hsl(158, 36%, 20%);
+}
+
+.button-icon {
+   margin-right: 10px; 
 }
