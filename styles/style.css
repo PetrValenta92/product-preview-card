@@ -42,10 +42,6 @@ body {
     color: var(--dark-grayish-blue);
 } 
 
-.product-information p {
-    line-height: 1.4rem;
-}
-
 .product-information h2, strong {
     font-family: 'Fraunces', serif;
     font-weight: 700;
@@ -62,11 +58,12 @@ body {
 }
 
 .product-kind {
-    letter-spacing: 0.4rem;
+    letter-spacing: 0.25rem;
 }
 
 .product-text {
     padding: 5px 0 10px 0;
+    line-height: 1.4rem;
 }
 
 .price-wrapper {
@@ -102,4 +99,49 @@ body {
 
 .button-icon {
    margin-right: 10px; 
+}
+
+@media (min-width: 900px) {
+    .card-wrapper {
+        width: 45%;
+        height: 480px;
+        display: flex;
+        flex-wrap: row wrap;
+        margin: 175px auto;
+    }
+
+    .product-photo {
+        height: 100%;
+        flex: 0 0 50%;
+    }
+
+    .product-information {
+        flex: 0 0 50%;
+        padding: 0 30px;
+    }
+
+    .product-information > * {
+        margin: 20px 0;
+    }
+
+    .product-information h2, strong {
+        font-size: 2.2rem;
+    }  
+    
+    .product-information h2 {
+        line-height: 2.2rem;
+    }
+
+    .product-kind {
+        padding-top: 10px;
+        letter-spacing: 0.3rem;
+    }
+
+    .product-text {
+        padding-right: 18px;
+    }
+
+    .add-button {
+        padding: 18px 0;
+    }
 }
