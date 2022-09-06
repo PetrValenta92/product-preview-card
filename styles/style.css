@@ -19,8 +19,8 @@ body {
     background-color: white;
     font-size: 0.875rem;
     width: 90%;
-    margin: 25px auto;
-    border-radius: 10px;
+    margin: 1.563rem auto;
+    border-radius: 0.625rem;
     overflow: hidden;
 }
 
@@ -29,11 +29,11 @@ body {
 }
 
 .product-information {
-    padding: 10px 22px 15px 22px;
+    padding: 0.625rem 1.375rem 0.938rem 1.375rem;
 }
 
 .product-information > * {
-    margin: 10px 0;
+    margin: 0.625rem 0;
 }
 
 .product-information p, s {
@@ -62,12 +62,12 @@ body {
 }
 
 .product-text {
-    padding: 5px 0 10px 0;
+    padding: 5px 0 0.625rem 0;
     line-height: 1.4rem;
 }
 
 .price-wrapper {
-    padding-bottom: 10px;
+    padding-bottom: 0.625rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -75,7 +75,7 @@ body {
 }
 
 .price-wrapper strong {
-    padding-right: 20px;
+    padding-right: 1.25rem;
 }
 
 .add-button {
@@ -84,10 +84,10 @@ body {
     background-color: var(--dark-cyan);
     color: white;
     width: 100%;
-    padding: 15px 0;
+    padding: 0.938rem 0;
     cursor: pointer;
     border: none;
-    border-radius: 7px;
+    border-radius: 0.438rem;
     display: flex;
     justify-content: center;
 }
@@ -98,16 +98,16 @@ body {
 }
 
 .button-icon {
-   margin-right: 10px; 
+   margin-right: 0.625rem; 
 }
 
 @media (min-width: 900px) {
     .card-wrapper {
         width: 45%;
-        height: 480px;
+        height: 55%;
         display: flex;
         flex-wrap: row wrap;
-        margin: 175px auto;
+        margin: 11rem auto;
     }
 
     .product-photo {
@@ -117,11 +117,11 @@ body {
 
     .product-information {
         flex: 0 0 50%;
-        padding: 0 30px;
+        padding: 0 1.875rem;
     }
 
     .product-information > * {
-        margin: 20px 0;
+        margin: 1.25rem 0;
     }
 
     .product-information h2, strong {
@@ -133,15 +133,15 @@ body {
     }
 
     .product-kind {
-        padding-top: 10px;
+        padding-top: 0.625rem;
         letter-spacing: 0.3rem;
     }
 
     .product-text {
-        padding-right: 18px;
+        padding-right: 1.125rem;
     }
 
     .add-button {
-        padding: 18px 0;
+        padding: 1.125rem 0;
     }
 }
