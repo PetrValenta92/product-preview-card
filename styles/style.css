@@ -18,7 +18,7 @@ body {
 .card-wrapper {
     background-color: white;
     font-size: 0.875rem;
-    width: 90%;
+    max-width: 340px;
     margin: 1.563rem auto;
     border-radius: 0.625rem;
     overflow: hidden;
@@ -103,7 +103,7 @@ body {
 
 @media (min-width: 900px) {
     .card-wrapper {
-        width: 45%;
+        max-width: 576px;
         height: 55%;
         display: flex;
         flex-wrap: row wrap;
